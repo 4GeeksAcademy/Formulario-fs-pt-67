@@ -15,7 +15,7 @@
 
 <body style="min-height: 100vh" class="bg-white d-flex align-items-center justify-content-center ">
     <!--Card-->
-    <div class="card fw-bold border border-5  bg-light  my-5 mx-5   mx-xs-5 my-xs-5   mx-sm-5 my-sm-5  ">
+    <div class="card fw-bold border border-5  bg-light   mx-md-5  my-md-5  mx-lg-5  my-lg-5  mx-xl-5  my-xl-5  mx-xxl-5  my-xxl-5  ">
         <!-- Card Header -->
         <div class="card-header d-flex justify-content-start  border border-3">
             <h4>Payment for example</h4>
@@ -33,25 +33,26 @@
                 <!-- Row 1 -->
                 <div class="row">
                     <!-- Input 1 -->
-                    <div class="mb-3      col-xs-12          col-sm-12          col-md-5             col-lg-5">
+                    <div class="mb-3    col-xs-12  col-sm-12   col-md-5  col-lg-5">
 
                         <label for="disabledTextInput1" class="form-label d-flex justify-content-start">Card
-                            #  <span style="color: darkgrey;"> (3-16 characters) </span></label>
+                            #<span class="visually-hidden"   style="color: darkgrey;"> (3-16 characters)</span></label>
                         <input type="text" id="disabledTextInput1" class="form-control border border-5"
                             placeholder="XXXXXXXXXXXXXXXX" pattern="\w{3,16}" required>
                     </div>
                     <!-- Input 2 -->
-                    <div class="mb-3       col-xs-12         col-sm-12            col-md-3             col-lg-3">
+                    <div class="mb-3   col-xs-12     col-sm-12     col-md-3      col-lg-3">
 
-                        <label for="disabledTextInput2" class="form-label d-flex justify-content-start">CVC # <span style="color: darkgrey;">(4 digits)</span></label>
+                        <label for="disabledTextInput2" class="form-label d-flex justify-content-start">CVC # <span class="visually-hidden" 
+                                style="color: darkgrey;">(4 digits)</span></label>
                         <input type="text" id="disabledTextInput2" class="form-control border border-5"
                             placeholder="0000" pattern="\w{4}" required>
                     </div>
                     <!-- Input 3 -->
-                    <div class="mb-3       col-xs-12          col-sm-12         col-md-4             col-lg-4">
+                    <div class="mb-3   col-xs-12    col-sm-12    col-md-4    col-lg-4">
 
                         <label for="disabledTextInput3" class="form-label d-flex justify-content-start">Amount
-                            #  <span style="color: darkgrey;">(1-20 characters)</span></label>
+                            # <span class="visually-hidden" style="color: darkgrey;">(1-20 characters)</span></label>
                         <div class="d-flex">
                             <label for=""><i class="fa-solid fa-dollar-sign fa-lg" style="color: #404040;"></i></label>
                             <input type="text" id="disabledTextInput3" class="form-control  border border-5"
@@ -64,7 +65,7 @@
                     <div class=" mb-3   col-xs-12    col-sm-12     col-md-6       col-lg-6">
 
                         <label for="disabledTextInput4" class="form-label d-flex justify-content-start">First
-                            Names  <span style="color: darkgrey;">(3-16 characters)</span></label>
+                            Name <span class="visually-hidden"  style="color: darkgrey;">(3-16 characters)</span></label>
                         <input type="text" id="disabledTextInput4" class="form-control border border-5"
                             pattern="\w{3,16}" required>
                     </div>
@@ -73,7 +74,7 @@
 
                     <div class=" mb-3   col-xs-12   col-sm-12    col-md-6    col-lg-6">
                         <label for="disabledTextInput5" class="form-label d-flex justify-content-start">Last
-                            Name <span style="color: darkgrey;">(3-16 characters)</span></label>
+                            Name <span class="visually-hidden"  style="color: darkgrey;">(3-16 characters)</span></label>
                         <input type="text" id="disabledTextInput5" class="form-control  border border-5"
                             pattern="\w{3,16}" required>
                     </div>
@@ -81,7 +82,8 @@
                     <!-- Input 6 -->
                     <div class=" mb-3   col-xs-12   col-sm-12    col-md-6   col-lg-6">
 
-                        <label for="disabledTextInput6" class="form-label d-flex justify-content-start">City <span style="color: darkgrey;">(3-12 characters)</span></label>
+                        <label for="disabledTextInput6" class="form-label d-flex justify-content-start">City <span class="visually-hidden" 
+                                style="color: darkgrey;">(3-12 characters)</span></label>
                         <input type="text" id="disabledTextInput6" class="form-control border border-5"
                             pattern="\w{3,12}" required>
                     </div>
@@ -101,7 +103,7 @@
                     <!-- Input 8 -->
                     <div class=" mb-3   col-xs-12   col-sm-12   col-md-3    col-lg-3">
                         <label for="disabledTextInput7" class="form-label d-flex justify-content-start">Postal
-                            Code <span style="color: darkgrey;">(3-16 characters)</span></label>
+                            Code <span class="visually-hidden"  style="color: darkgrey;">(3-16 characters)</span></label>
                         <input type="text" id="disabledTextInput7" class="form-control border border-5"
                             pattern="\w{3,8}" required>
                     </div>
@@ -174,7 +176,8 @@
                     <!-- TextArea -->
 
                     <div class="d-flex flex-column   col-xs-12   col-sm-12   col-md-6    col-lg-6    col-xl-6">
-                        <label for="exampleFormControlTextarea1" class="d-flex mb-3">Message <span style="color: darkgrey;">(3-16 characters)</span></label>
+                        <label for="exampleFormControlTextarea1" class="d-flex mb-3">Message <span class="visually-hidden" 
+                                style="color: darkgrey;">(3-16 characters)</span></label>
                         <textarea class="form-control border border-5" id="exampleFormControlTextarea1" rows="5"
                             pattern="\w{3,16}"></textarea>
                         <p class="d-flex justify-content-start text-body-secondary">Add any notes here</p>
